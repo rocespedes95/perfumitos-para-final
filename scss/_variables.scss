@@ -1,0 +1,20 @@
+//*variables y mixins*/
+
+$color-titulo: #5a189a;
+
+//map -get /
+$texto:(color:#9a031e,tamFuente:40px);
+
+//*mixin sin parametro*/ 
+ @mixin parrafo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 34px;
+    text-align: right;
+    
+ }
+ //*mixin con parametro/
+ @mixin importante($size,$alineacion) {
+    font-size: $size;
+    text-align: $alineacion;
+    
+ }

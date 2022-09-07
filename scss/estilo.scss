@@ -1,0 +1,73 @@
+ 
+ @import"variables";
+
+
+h1{ text-align: center;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: uppercase;
+    color: $color-titulo;
+}
+.bodyIndex{background-color: #ffd670;}
+.bodyGeneral{
+    background-color: #e2c044;
+}
+
+.barraNav{
+    background-color: #4ea8de !important;
+    
+    border-radius: 8px;
+    height: 10rem;
+    
+    a{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 2.5rem;
+        color: #c9184a;
+    }
+    
+
+}
+.carrito{
+   margin-top: 60px;
+   margin-left: 40rem;
+}
+.mainPagina{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 50px;
+    margin-top: 50px;    
+
+}
+.mainKids{
+    @extend .mainPagina;
+}
+.testoxD{
+    margin-top: 30px;
+    color: map-get($texto, color);
+    font-size: map-get($texto, tamFuente );
+}
+.pie{
+    margin-bottom: 1px;
+}
+.video1{ 
+    width: 60rem;
+    height: 40rem;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 460px;
+}
+.mapa{
+    margin-top: 40px;
+    margin-left: 630px;
+}
+.formuLario{
+    margin-top: 50px;
+}
+.textito{
+    @include parrafo;
+}
+.spamxD{
+    @include importante(30px,left)
+}
