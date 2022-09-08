@@ -9,7 +9,9 @@ h1{ text-align: center;
     text-decoration: uppercase;
     color: $color-titulo;
 }
-.bodyIndex{background-color: #ffd670;}
+.bodyIndex{
+    background-image: url(../imagenes/fondoindex.jpg);
+}
 
 .bodyGeneral{
     background-color: #e2c044;
@@ -30,8 +32,10 @@ h1{ text-align: center;
 
 }
 .carrito{
+    display: flex;
+    justify-content: center;
    margin-top: 60px;
-   margin-left: 40rem;
+   
 }
 .mainPagina{
     display: flex;
