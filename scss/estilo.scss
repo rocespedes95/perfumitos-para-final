@@ -10,6 +10,7 @@ h1{ text-align: center;
     color: $color-titulo;
 }
 .bodyIndex{background-color: #ffd670;}
+
 .bodyGeneral{
     background-color: #e2c044;
 }
@@ -51,16 +52,25 @@ h1{ text-align: center;
 .pie{
     margin-bottom: 1px;
 }
+.videoPadre{
+    display: flex;
+    justify-content: center;
+}
+
 .video1{ 
+    margin-top: 40px;
     width: 60rem;
     height: 40rem;
     border-radius: 20px;
-    margin-top: 40px;
-    margin-left: 460px;
+    
+}
+.mapaPadre{
+    display: flex;
+    justify-content: center;
 }
 .mapa{
-    margin-top: 40px;
-    margin-left: 630px;
+    margin-top: 30px;
+    
 }
 .formuLario{
     margin-top: 50px;
